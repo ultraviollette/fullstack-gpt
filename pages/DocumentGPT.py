@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import UnstructuredFileLoader
-from langchain_core.embeddings import CacheBackedEmbeddings
+from langchain_community.embeddings import CacheBackedEmbeddings
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from langchain.storage import LocalFileStore
