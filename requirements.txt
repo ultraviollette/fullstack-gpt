@@ -33,7 +33,7 @@ contourpy==1.1.1
 cryptography==41.0.4
 cycler==0.11.0
 cymem==2.0.8
-dataclasses-json==0.5.14
+dataclasses-json
 debugpy==1.8.0
 decorator==5.1.1
 dill==0.3.7
@@ -47,7 +47,6 @@ email-validator==2.0.0.post2
 emoji==2.8.0
 et-xmlfile==1.1.0
 executing==1.2.0
-faiss-cpu==1.7.4
 fastapi==0.99.1
 ffmpeg==1.4
 ffmpeg-python==0.2.0
