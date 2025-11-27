@@ -1,11 +1,11 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import UnstructuredFileLoader
-from langchain.embeddings.cache import CacheBackedEmbeddings
+from langchain_core.embeddings import CacheBackedEmbeddings
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from langchain.storage import LocalFileStore
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_community.vectorstores import FAISS
-from langchain_core.runnables import RunnableLambda, RunnablePassthrough
+from langchain_community.vectorstores.faiss import FAISS
 from langchain.callbacks.base import BaseCallbackHandler
 import streamlit as st
 
